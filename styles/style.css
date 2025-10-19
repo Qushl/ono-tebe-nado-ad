@@ -1,1 +1,168 @@
-/* место для вашего кода */
+.header {
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items: center;
+  width: 1100px;
+  height: 293px;
+  opacity: 1;
+}
+
+.header__menu {
+  display: flex;
+  gap: 40px;
+  width: 391.4786376953125px;
+  height: 22.00001335144043px;
+  list-style: circle;
+  top: 133px;
+  left: 50px;
+  opacity: 1;
+}
+
+.nav {
+  justify-self: center;
+}
+
+.header__logo { 
+  width: 148px;
+  height: 105px;
+  top: 92px;
+  left: 478px;
+  opacity: 1;
+}
+
+.address {
+  justify-self: end;
+}
+.cover {
+  position: relative;
+  width: 1100px;
+  height: 757px;
+  background-image: url(/images/cover.jpg);
+  background-size: cover;    
+  background-position: center; 
+  background-repeat: no-repeat; 
+  opacity: 1;
+}
+.cover::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); 
+    z-index: 1;
+  }
+.title {
+  position: absolute;
+  color: white;
+  width: 1000px;
+  height: 385px;
+  top: 165px;
+  left: 50px;
+  opacity: 1;
+  z-index: 3;
+}
+.cover__title1 {
+  display: block;
+  font-family: Raleway;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 100px;
+  line-height: 114.99999999999999%;
+  letter-spacing: 30%;
+  text-transform: uppercase;
+}
+.cover__title2 {
+  display: block;
+  font-family: Raleway;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 100px;
+  line-height: 114.99999999999999%;
+  letter-spacing: 30%;
+  text-align: center;
+  text-transform: uppercase;
+}
+.cover__title3 {
+  display: block;
+  font-family: Raleway;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 100px;
+  line-height: 114.99999999999999%;
+  letter-spacing: 30%;
+  text-align: right;
+  text-transform: uppercase;
+}
+.cover__description {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  color: white;
+  width: 1000px;
+  height: 51px;
+  top: 656px;
+  left: 50px;
+  opacity: 1;
+  border-width: 1px;
+  z-index: 3;
+}
+.cover__description-text {
+  width: 637px;
+  height: 28px;
+  top: 668px;
+  left: 50px;
+  opacity: 1;
+  font-family: Raleway;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+}
+.bet-button {
+  font-family: Raleway;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 22px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+  background: #000000;
+  outline: none;
+  text-decoration: none;
+  margin-left: auto;
+  width: 256px;
+  height: 51px;
+  opacity: 1;
+  border-width: 1px;
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  cursor: pointer;
+}
+.lots {
+  width: 1052px;
+  height: 723px;
+  top: 1230px;
+  left: 24px;
+  opacity: 1;
+}
+
+.about {
+  width: 1052px;
+  height: 595px;
+  top: 2073px;
+  left: 24px;
+  opacity: 1;
+}
+
+.footer {
+  width: 1100px;
+  height: 180px;
+  top: 2848px;
+  opacity: 1;
+}
