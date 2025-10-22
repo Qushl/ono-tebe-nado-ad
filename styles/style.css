@@ -35,7 +35,7 @@ body {
   list-style: circle;
 }
 
-.header__logo { 
+.header__logo {
   width: 148px;
   height: 105px;
   top: 92px;
@@ -46,6 +46,7 @@ body {
 .address {
   justify-self: end;
 }
+
 .cover {
   position: relative;
   width: 1100px;
@@ -55,6 +56,7 @@ body {
   background-position: center; 
   background-repeat: no-repeat; 
 }
+
 .cover::after {
     content: '';
     position: absolute;
@@ -65,6 +67,7 @@ body {
     background-color: rgba(0, 0, 0, 0.6); 
     z-index: 1;
   }
+
 .title {
   position: absolute;
   color: white;
@@ -75,6 +78,7 @@ body {
   opacity: 1;
   z-index: 3;
 }
+
 .cover__title1 {
   display: block;
   font-family: Raleway;
@@ -96,6 +100,7 @@ body {
   text-align: center;
   text-transform: uppercase;
 }
+
 .cover__title3 {
   display: block;
   font-family: Raleway;
@@ -107,6 +112,7 @@ body {
   text-align: right;
   text-transform: uppercase;
 }
+
 .cover__description {
   display: flex;
   align-items: center;
@@ -120,6 +126,7 @@ body {
   border-width: 1px;
   z-index: 3;
 }
+
 .cover__description-text {
   width: 637px;
   height: 28px;
@@ -134,6 +141,7 @@ body {
   letter-spacing: 0%;
   text-transform: uppercase;
 }
+
 .bet-button {
   font-family: Raleway;
   font-weight: 500;
@@ -143,7 +151,6 @@ body {
   letter-spacing: 0%;
   text-align: center;
   text-transform: uppercase;
-  background: #000000;
   outline: none;
   text-decoration: none;
   margin-left: auto;
@@ -189,6 +196,7 @@ body {
   height: 596px;
   opacity: 1;
 }
+
 .lot::after {
   content: '';
   position: absolute;
@@ -199,30 +207,35 @@ body {
   background-color: rgba(0, 0, 0, 0.6); 
   z-index: 1;
 }
+
 .lot1 {
   background-image: url(/images/card-lot-01.jpg);
   background-size: cover;
   background-position: center;  
   background-repeat: no-repeat;
 }
+
 .lot2 {
   background-image: url(/images/card-lot-02.jpg);
   background-size: cover;
   background-position: center;  
   background-repeat: no-repeat;
 }
+
 .lot3 {
   background-image: url(/images/card-lot-03.jpg);
   background-size: cover;
   background-position: center;  
   background-repeat: no-repeat;
 }
+
 .lots-list {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
   justify-content: space-between;
 }
+
 .lot_title {
   display: block;
   position: absolute;
@@ -244,6 +257,7 @@ body {
   color: #ffffff;
   z-index: 2;
 }
+
 .lot_description {
   display: block;
   position: absolute;
@@ -258,12 +272,14 @@ body {
   color: #ffffff;
   z-index: 2;
 }
+
 .lot_description_1 {
   width: 254px;
   height: 144px;
   top: 404px;
   left: 40px;
 }
+
 .lot_description_2 {
   width: 254px;
   height: 360px;
@@ -271,6 +287,7 @@ body {
   left: 40px;
   opacity: 1;
 }
+
 .lot_description_3 {
   width: 254px;
   height: 264px;
@@ -278,6 +295,7 @@ body {
   left: 40px;
   opacity: 1;
 }
+
 img{
   object-fit: cover;
 }
@@ -288,6 +306,7 @@ img{
   border-width: 1px;
   margin-left: 40px;
 }
+
 .about {
   position: relative;
   width: 1052px;
@@ -360,11 +379,13 @@ img{
 .footer__menu-list {
   list-style: none;
 }
+
 .footer__menu-list__icon {
   display: flex;
   list-style: none;
   gap: 48px;
 }
+
 .footer__menu-link_active {
   text-decoration: none;
 }
